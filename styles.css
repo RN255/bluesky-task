@@ -127,7 +127,7 @@ nav ul li a {
 }
 
 #accordionSection img {
-  width: 60%;
+  width: 50%;
   height: fit-content;
   padding: 5px;
 }
@@ -261,13 +261,19 @@ footer #footerTop img {
   height: 50px;
 }
 
-footer #footerTop a {
+footer #footerTop #footerSocialMediaIcons a {
   text-decoration: none;
   color: white;
   margin-left: 15px;
   font-size: 20px;
   position: relative;
   top: 15px;
+  transition: 0.25s;
+}
+
+footer #footerTop #footerSocialMediaIcons a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.25s;
 }
 
 footer #footerBottom {
