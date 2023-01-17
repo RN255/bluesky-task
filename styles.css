@@ -123,6 +123,7 @@ nav ul li a {
 #accordionSection {
   display: flex;
   padding: 10px;
+  margin-top: 100px;
 }
 
 #accordionSection img {
@@ -145,6 +146,16 @@ nav ul li a {
 }
 
 /* form section  */
+
+#formSection {
+  margin-top: 100px;
+}
+
+#formSectionTitleDiv {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
 
 #formSection form {
   width: 50%;
@@ -222,13 +233,19 @@ textarea:focus {
   background-color: rgba(0, 0, 0, 0.8);
   color: rgb(255, 255, 255);
   font-weight: 500;
+  transition: 0.25s;
+}
+
+#formSection form #formSubmit:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 0.25s;
 }
 
 /* footer  */
 
 footer {
   padding: 25px 10%;
-  margin: 50px auto 0;
+  margin: 100px auto 0;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
@@ -289,9 +306,26 @@ footer #footerBottom ul li a {
 footer #footerBottom form label {
   display: block;
   width: 300px;
+  margin-bottom: 5px;
 }
 
 footer #footerBottom form input {
   display: block;
   width: 300px;
+  margin-bottom: 8px;
+}
+
+footer #footerBottom form #footerEmailSubmit {
+  width: 100px;
+  border-radius: 35px;
+  border: none;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  transition: 0.25s;
+}
+
+footer #footerBottom form #footerEmailSubmit:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 0.25s;
 }
