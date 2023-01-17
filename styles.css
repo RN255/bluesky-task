@@ -143,3 +143,83 @@ nav ul li a {
 #accordionSection .accordion-body h3 span {
   font-weight: 100;
 }
+
+/* form section  */
+
+#formSection form {
+  width: 50%;
+  margin: auto;
+}
+
+#formSection form label {
+  display: block;
+  color: rgb(114, 114, 114);
+  font-weight: 400;
+}
+
+#formSection form #formEmail {
+  margin-bottom: 5px;
+}
+
+#formSection form #emailCheckboxLabel {
+  display: inline;
+  position: relative;
+  bottom: 2px;
+}
+
+#formSection form #emailCheckboxInput {
+  width: fit-content;
+  margin-left: 5px;
+}
+
+#formSection form input,
+textarea {
+  border-radius: 5px;
+  border: 1px rgba(0, 0, 0, 0.2) solid;
+  width: 100%;
+  padding: 7px;
+}
+
+#formSection form input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px rgba(0, 0, 0, 0.8) solid;
+  padding: 6px;
+}
+
+#formSection form .formItemLastLine {
+  margin-bottom: 10px;
+}
+
+#formSection form #formPhoneNumber {
+  margin-bottom: 5px;
+}
+
+#formSection form #contactMethodInfo {
+  color: rgb(114, 114, 114);
+  display: inline;
+}
+
+#formSection form .radioInput {
+  width: fit-content;
+  margin-left: 20px;
+}
+
+#formSection form .radioLabel {
+  display: inline;
+}
+
+#formSection form #questionsLabel {
+  margin-top: 15px;
+}
+
+#formSection form #formSubmit {
+  width: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 35px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}

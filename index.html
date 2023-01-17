@@ -42,6 +42,7 @@
         <button><a href="#sectionTwo">Find out more</a></button>
       </div> -->
     </section>
+    <!-- accordion info section  -->
     <section id="accordionSection">
       <img src="images\eGolfExterior.webp" alt="e-Gold exterior view" />
       <div
@@ -156,6 +157,77 @@
           </div>
         </div>
       </div>
+    </section>
+    <!-- register interst form  -->
+    <section id="formSection">
+      <form action="">
+        <label for="firstName">First name</label>
+        <input
+          type="text"
+          id="formFirstName"
+          class="formItemLastLine"
+          name="firstName"
+          maxlength="50"
+          required
+        />
+
+        <label for="lastName">Last Name</label>
+        <input
+          type="text"
+          id="formLastName"
+          class="formItemLastLine"
+          name="lastName"
+          maxlength="50"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input type="email" id="formEmail" name="email" maxlength="100" />
+
+        <label for="" id="emailCheckboxLabel"
+          >I would like to receive marketing emails in the future</label
+        >
+        <input
+          type="checkbox"
+          id="emailCheckboxInput"
+          class="formItemLastLine"
+        />
+
+        <label for="phoneNumber">Phone</label>
+        <input
+          type="text"
+          id="formPhoneNumber"
+          name="phoneNumber"
+          pattern="[0-9]+"
+        />
+
+        <p id="contactMethodInfo">I prefer to be contacted by:</p>
+        <input
+          type="radio"
+          name="contactMethod"
+          value="phone"
+          class="radioInput"
+        />
+        <label for="Questions" class="radioLabel">Phone</label>
+        <input
+          type="radio"
+          name="contactMethod"
+          value="email"
+          class="radioInput"
+        />
+        <label for="Questions" class="radioLabel">Email</label>
+
+        <label for="" id="questionsLabel">Questions or Comments</label>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="3"
+          class="formItemLastLine"
+        ></textarea>
+
+        <input type="submit" value="Submit" id="formSubmit" />
+      </form>
     </section>
 
     <!-- Bootstrap scripts  -->
