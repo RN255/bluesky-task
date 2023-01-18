@@ -391,24 +391,25 @@ footer #footerBottom form #footerEmailSubmit:hover {
   /* main banner  */
 
   #banner {
-    height: 50vh;
-    margin-top: 70px;
+    height: 100vh;
     background-size: cover;
     background-position: center;
-    padding: 10px 2% 0;
+    padding: 15vh 2% 0;
     position: relative;
+    background-size: 120%;
+    background-color: rgba(0, 0, 0, 1);
   }
 
   #banner h1 {
-    font-size: 6vw;
+    font-size: 7vw;
     margin: auto;
   }
 
   #banner p {
-    font-size: 5vw;
+    font-size: 6vw;
     position: absolute;
-    bottom: 5px;
-    left: 25%;
+    bottom: 15vh;
+    left: 20%;
     margin: 0;
   }
 
@@ -449,12 +450,31 @@ footer #footerBottom form #footerEmailSubmit:hover {
     margin-left: 0px;
   }
 
-  /* this is temp to get rid of email at footer */
-  footer #footerBottom form input {
-    width: 30px;
+  /* footer  */
+
+  footer #footerBottom {
+    display: block;
+  }
+
+  footer #footerBottom #footerBottomLeftCol {
+    justify-content: space-between;
+  }
+
+  footer #footerBottom #footerBottomRightCol {
+    margin-top: 15px;
   }
 
   footer #footerBottom form label {
-    width: 30px;
+    width: 90%;
+  }
+
+  footer #footerBottom form input {
+    width: 90%;
+  }
+}
+
+@media (max-width: 300px) {
+  nav a p {
+    display: none;
   }
 }
