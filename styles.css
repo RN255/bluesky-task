@@ -153,6 +153,18 @@ nav #NavSocialMediaIcons {
   padding: 5px;
 }
 
+#accordionSection #interiorImg {
+  display: none;
+}
+
+#accordionSection #lightsImg {
+  display: none;
+}
+
+#accordionSection #wheelsImg {
+  display: none;
+}
+
 #accordionSection .accordion-button {
   background: none;
   color: black;

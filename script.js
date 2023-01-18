@@ -53,3 +53,33 @@ function darkenNavBar() {
       "rgba(0, 0, 0, 0.7)";
   }
 }
+
+// change images when looking at accordion
+
+document.getElementById("accordionExteriorButton").onclick = function () {
+  document.getElementById("exteriorImg").style.display = "block";
+  document.getElementById("interiorImg").style.display = "none";
+  document.getElementById("lightsImg").style.display = "none";
+  document.getElementById("wheelsImg").style.display = "none";
+};
+
+document.getElementById("accordionInteriorButton").onclick = function () {
+  document.getElementById("exteriorImg").style.display = "none";
+  document.getElementById("interiorImg").style.display = "block";
+  document.getElementById("lightsImg").style.display = "none";
+  document.getElementById("wheelsImg").style.display = "none";
+};
+
+document.getElementById("accordionLightsButton").onclick = function () {
+  document.getElementById("exteriorImg").style.display = "none";
+  document.getElementById("interiorImg").style.display = "none";
+  document.getElementById("lightsImg").style.display = "block";
+  document.getElementById("wheelsImg").style.display = "none";
+};
+
+document.getElementById("accordionWheelsButton").onclick = function () {
+  document.getElementById("exteriorImg").style.display = "none";
+  document.getElementById("interiorImg").style.display = "none";
+  document.getElementById("lightsImg").style.display = "none";
+  document.getElementById("wheelsImg").style.display = "block";
+};
