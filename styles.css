@@ -9,6 +9,7 @@ nav {
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1;
 }
 
 nav a img {
@@ -125,9 +126,17 @@ nav ul li a {
 /* Accordion Section  */
 
 #accordionSection {
+  margin-top: 100px;
+}
+
+#accordionSection h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#accordionSection #accordionSectionContainer {
   display: flex;
   padding: 10px;
-  margin-top: 100px;
 }
 
 #accordionSection img {
@@ -341,6 +350,12 @@ footer #footerBottom form #footerEmailSubmit:hover {
 }
 
 @media (max-width: 1000px) {
+  /* navbar  */
+
+  nav {
+    background-color: rgb(0, 0, 0);
+  }
+
   #navLinks {
     position: fixed;
     top: 0;
@@ -363,7 +378,7 @@ footer #footerBottom form #footerEmailSubmit:hover {
 
   nav #navOpenButton {
     display: block;
-    margin: 10px 25px 0 0;
+    margin: 10px 10px 0 0;
     z-index: 1;
   }
 
@@ -371,6 +386,67 @@ footer #footerBottom form #footerEmailSubmit:hover {
     width: 25px;
     height: 8px;
     border-bottom: 1px white solid;
+  }
+
+  /* main banner  */
+
+  #banner {
+    height: 50vh;
+    margin-top: 70px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 2% 0;
+    position: relative;
+  }
+
+  #banner h1 {
+    font-size: 6vw;
+    margin: auto;
+  }
+
+  #banner p {
+    font-size: 5vw;
+    position: absolute;
+    bottom: 5px;
+    left: 25%;
+    margin: 0;
+  }
+
+  /* Accordion Section  */
+
+  #accordionSection {
+    margin-top: 50px;
+  }
+
+  #accordionSection #accordionSectionContainer {
+    display: block;
+  }
+
+  #accordionSection img {
+    width: 80%;
+    height: fit-content;
+    padding: 5px;
+    display: block;
+    margin: auto;
+  }
+
+  /* form section  */
+
+  #formSection {
+    margin-top: 50px;
+  }
+
+  #formSection form {
+    width: 90%;
+  }
+
+  #formSection form #contactMethodInfo {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  #formSection form .radioInput {
+    margin-left: 0px;
   }
 
   /* this is temp to get rid of email at footer */
