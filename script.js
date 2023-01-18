@@ -38,3 +38,18 @@ openNavButton.onclick = function () {
     openBarBottom.style.transform = "rotate(0deg)";
   }
 };
+
+// darken navbar when scrolling away from top
+window.onscroll = function () {
+  darkenNavBar();
+};
+
+function darkenNavBar() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("nav").style["backgroundColor"] =
+      "rgba(0, 0, 0, 1)";
+  } else {
+    document.getElementById("nav").style["backgroundColor"] =
+      "rgba(0, 0, 0, 0.7)";
+  }
+}
