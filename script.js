@@ -30,9 +30,9 @@ openNavButton.onclick = function () {
     // hide nav bar
     navLinks.style.right = "-300px";
     navOpen = false;
+
     // return hamburger bars to normal
     openBarTop.style.transform = "rotate(0deg)";
-
     openBarMiddle.style.visibility = "visible";
     openBarMiddle.style.transition = "1s";
     openBarBottom.style.transform = "rotate(0deg)";
