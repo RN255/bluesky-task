@@ -26,6 +26,7 @@ This was part of a job interview process
 ## Lessons learnt
 - How to create an animated hamburger button and some knowledge about animations
 - further improved understanding of Bootstrap
+- The final website looked different on my mobile phone when compared to Chrome dev tools so I had to change a few things at the end.
 
 ## future development
 - Customising the checkbox and radio buttons on the form would be nice
