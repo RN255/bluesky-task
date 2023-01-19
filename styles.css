@@ -178,45 +178,40 @@ nav #NavSocialMediaIcons {
   font-weight: 100;
 }
 
-/* related content section  */
+/* explore by grade section  */
+/* check is it all needed  */
 
-#relatedContentSection .cardImage {
+#exploreGradeSection #exploreSubHeading span {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#exploreGradeSection .cardImage {
   width: 100%;
   height: 35vh;
   object-fit: cover;
 }
 
-#relatedContentSection h3 {
-  font-weight: 300;
+#exploreGradeSection h3 {
+  font-weight: 500;
   font-size: 24px;
+  margin-bottom: 3px;
 }
 
-#relatedContentSection a {
+#exploreGradeSection .gradeCardSubHeading {
+  margin-top: 0px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#exploreGradeSection ul {
+  padding-left: 20px;
+}
+
+#exploreGradeSection a {
   color: black;
-  position: relative;
 }
 
-#relatedContentSection a:after {
-  display: inline-block;
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  height: 1px;
-  width: 80%;
-  background-color: black;
-  transition: 0.5s;
-  transform: scaleX(0);
-  transform-origin: left;
-}
-
-#relatedContentSection a:hover:after {
-  transform: scaleX(1);
-}
-
-#relatedContentSection .nextIcon {
-  height: 20px;
-}
 
 /* test drive section */
 
@@ -277,6 +272,46 @@ nav #NavSocialMediaIcons {
 #testDriveSection a:hover {
   opacity: 0.5;
   transition: 0.25s;
+}
+
+/* related content section  */
+
+#relatedContentSection .cardImage {
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+}
+
+#relatedContentSection h3 {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#relatedContentSection a {
+  color: black;
+  position: relative;
+}
+
+#relatedContentSection a:after {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 1px;
+  width: 80%;
+  background-color: black;
+  transition: 0.5s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+#relatedContentSection a:hover:after {
+  transform: scaleX(1);
+}
+
+#relatedContentSection .nextIcon {
+  height: 20px;
 }
 
 /* form section  */
