@@ -2,7 +2,7 @@
 This is a website for a fictional company called Premier Volksvagen. It is a page for showcasing a new car called an e-Golf. The website contains some information about the car, a section asking users if they want to test drive the car and a form where users can contact the company.
 
 ## How to use
-Website is live at: https://rn255.github.io/bluesky-task/
+Website is live at: https://rn255.github.io/blueskyTask/
 
 ## Screenshot
 ![Premier Volkswagen screenshot](https://github.com/RN255/bluesky-task/blob/master/images/Screenshot%202023-01-19%20144802.jpg)
