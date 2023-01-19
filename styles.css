@@ -218,6 +218,67 @@ nav #NavSocialMediaIcons {
   height: 20px;
 }
 
+/* test drive section */
+
+#testDriveSection {
+  display: flex;
+  width: 85%;
+  margin: 125px auto 0;
+  height: 425px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#testDriveSection img {
+  width: 40vw;
+  height: 500px;
+  object-fit: cover;
+  padding: 3%;
+  position: relative;
+  top: -75px;
+}
+
+#testDriveSection #testDriveSectionInfo {
+  padding: 5%;
+}
+
+#testDriveSection h2 {
+  font-weight: 100;
+  font-size: 34px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#testDriveSection h2 span {
+  font-weight: 500;
+}
+
+#testDriveSection p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  line-height: 1.5em;
+  padding-top: 10px;
+}
+
+#testDriveSection a {
+  color: rgba(255, 255, 255);
+  text-decoration: none;
+  transition: 0.25s;
+  font-size: 20px;
+}
+
+#testDriveSection a img {
+  height: 40px;
+  width: 40px;
+  position: inherit;
+  padding: 10px;
+  transform: rotate(-90deg);
+}
+
+#testDriveSection a:hover {
+  opacity: 0.5;
+  transition: 0.25s;
+}
+
 /* form section  */
 
 #formSection {
@@ -511,6 +572,20 @@ footer #footerBottom form #footerEmailSubmit:hover {
     padding: 5px;
     display: block;
     margin: auto;
+  }
+
+  /* test drive section  */
+
+  #testDriveSection {
+    display: block;
+    margin: 75px auto 0;
+    height: fit-content;
+  }
+
+  #testDriveSection img {
+    width: 100%;
+    height: 80%;
+    top: 0px;
   }
 
   /* form section  */
