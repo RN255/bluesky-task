@@ -124,7 +124,7 @@ nav #NavSocialMediaIcons {
 
 #accordionSection img {
   width: 50%;
-  height: fit-content;
+  height: auto;
   padding: 5px;
 }
 
