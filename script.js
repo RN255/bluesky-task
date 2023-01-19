@@ -1,4 +1,4 @@
-// get variables for slid out menu
+// get variables for slide out menu
 var openNavButton = document.getElementById("navOpenButton");
 var navLinks = document.getElementById("navLinks");
 var navOpen = false;
@@ -55,7 +55,6 @@ function darkenNavBar() {
 }
 
 // change images when looking at accordion
-
 document.getElementById("accordionExteriorButton").onclick = function () {
   document.getElementById("exteriorImg").style.display = "block";
   document.getElementById("interiorImg").style.display = "none";
