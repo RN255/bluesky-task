@@ -195,6 +195,23 @@ nav #NavSocialMediaIcons {
   color: black;
 }
 
+#exploreGradeSection .accordion-item {
+  border: none;
+}
+
+#exploreGradeSection button {
+  box-shadow: none;
+  color: #000000;
+}
+
+#exploreGradeSection .accordion-button:not(.collapsed) {
+  background-color: rgba(0, 114, 240, 0.04);
+}
+
+#exploreGradeSection .accordion-collapse:not(.collapsed) {
+  background-color: rgba(0, 114, 240, 0.04);
+}
+
 /* test drive section */
 
 #testDriveSection {
