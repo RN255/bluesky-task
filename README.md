@@ -1,5 +1,5 @@
-## Project Name: Premier Volkswagen (Bluesky Interactive task)  
-This is a website for a fictional company called Premier Volksvagen. It is a page for showcasing a new car called an e-Golf. The website contains some information about the car, a section asking users if they want to test drive the car and a form where users can contact the company.
+## Project Name: Premium Volkswagen (Bluesky Interactive task)  
+This is a website for a fictional company called Premium Volksvagen. It is a page for showcasing a new car called an e-Golf. The website contains some information about the car, a section asking users if they want to test drive the car and a form where users can contact the company.
 
 ## How to use
 Website is live at: https://rn255.github.io/blueskyTask/
@@ -26,6 +26,7 @@ This was part of a job interview process
 ## Lessons learnt
 - How to create an animated hamburger button and some knowledge about animations
 - further improved understanding of Bootstrap
+- The final website looked different on my mobile phone when compared to Chrome dev tools so I had to change a few things at the end.
 
 ## future development
 - Customising the checkbox and radio buttons on the form would be nice
