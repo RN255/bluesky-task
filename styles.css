@@ -202,6 +202,31 @@ nav #NavSocialMediaIcons {
 #exploreGradeSection button {
   box-shadow: none;
   color: #000000;
+  font-weight: 500;
+}
+
+#exploreGradeSection h3 {
+  font-size: 18px;
+  text-align: left;
+}
+
+#exploreGradeSection .accordion p {
+  font-size: 14px;
+  text-align: left;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+#exploreGradeSection .gradeEngineMainLine {
+  margin: 15px 0;
+}
+
+#exploreGradeSection .accordion span {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  text-align: left;
 }
 
 #exploreGradeSection .accordion-button:not(.collapsed) {
