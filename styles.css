@@ -383,7 +383,8 @@ nav #NavSocialMediaIcons {
 /* form section  */
 
 #formSection {
-  margin-top: 100px;
+  margin: 100px auto 0;
+  width: 80%;
 }
 
 #formSectionTitleDiv {
@@ -394,36 +395,30 @@ nav #NavSocialMediaIcons {
   margin-bottom: 10px;
 }
 
+#formContainer {
+  margin-top: 50px;
+  display: flex;
+}
+
+#formContainerLeftCol {
+  width: 100%;
+  padding: 20px;
+}
+
 #formSection form {
-  width: 50%;
+  width: 100%;
   margin: auto;
-}
-
-#formSection form label {
-  display: block;
-  color: rgb(114, 114, 114);
-  font-weight: 400;
-}
-
-#formSection form #formEmail {
-  margin-bottom: 5px;
-}
-
-#formSection form #emailCheckboxLabel {
-  display: inline;
-  position: relative;
-  bottom: 2px;
-}
-
-#formSection form #emailCheckboxInput {
-  width: fit-content;
-  margin-left: 5px;
+  background-color: #c0c0c275;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px #00000050;
 }
 
 #formSection form input,
 textarea {
-  border-radius: 5px;
-  border: 1px rgba(0, 0, 0, 0.2) solid;
+  border-radius: 3px;
+  /* border: 1px rgba(0, 0, 0, 0.2) solid; */
+  border: none;
   width: 100%;
   padding: 7px;
 }
@@ -431,39 +426,18 @@ textarea {
 #formSection form input:focus,
 textarea:focus {
   outline: none;
-  border: 2px rgba(0, 0, 0, 0.8) solid;
-  padding: 6px;
+  /* border: 2px rgba(0, 0, 0, 0.8) solid; */
+  border: none;
+  /* padding: 6px; */
 }
 
-#formSection form .formItemLastLine {
+#formSection form input {
   margin-bottom: 10px;
-}
-
-#formSection form #formPhoneNumber {
-  margin-bottom: 5px;
-}
-
-#formSection form #contactMethodInfo {
-  color: rgb(114, 114, 114);
-  display: inline;
-}
-
-#formSection form .radioInput {
-  width: fit-content;
-  margin-left: 20px;
-}
-
-#formSection form .radioLabel {
-  display: inline;
-}
-
-#formSection form #questionsLabel {
-  margin-top: 15px;
 }
 
 #formSection form #formSubmit {
   width: 200px;
-  margin: auto;
+  margin: 10px auto 0;
   display: block;
   border-radius: 35px;
   border: none;
@@ -716,21 +690,14 @@ footer #footerBottom form #footerEmailSubmit:hover {
 
   /* form section  */
 
+  #formContainer {
+    margin-top: 25px;
+    display: block;
+  }
+
   #formSection {
     margin-top: 50px;
-  }
-
-  #formSection form {
     width: 90%;
-  }
-
-  #formSection form #contactMethodInfo {
-    display: block;
-    margin-bottom: 0;
-  }
-
-  #formSection form .radioInput {
-    margin-left: 0px;
   }
 
   /* footer  */

@@ -569,74 +569,67 @@
         <h2>Contact us</h2>
         <p>Ask us a question or sign up to our newsletter</p>
       </div>
-      <form action="">
-        <label for="firstName">First name</label>
-        <input
-          type="text"
-          id="formFirstName"
-          class="formItemLastLine"
-          name="firstName"
-          maxlength="50"
-          required
-        />
-
-        <label for="lastName">Last Name</label>
-        <input
-          type="text"
-          id="formLastName"
-          class="formItemLastLine"
-          name="lastName"
-          maxlength="50"
-          required
-        />
-
-        <label for="email">Email</label>
-        <input type="email" id="formEmail" name="email" maxlength="100" />
-
-        <label for="" id="emailCheckboxLabel"
-          >I would like to sign up for email updates</label
-        >
-        <input
-          type="checkbox"
-          id="emailCheckboxInput"
-          class="formItemLastLine"
-        />
-
-        <label for="phoneNumber">Phone</label>
-        <input
-          type="text"
-          id="formPhoneNumber"
-          name="phoneNumber"
-          pattern="[0-9]+"
-        />
-
-        <p id="contactMethodInfo">I prefer to be contacted by:</p>
-        <input
-          type="radio"
-          name="contactMethod"
-          value="phone"
-          class="radioInput"
-        />
-        <label for="Questions" class="radioLabel">Phone</label>
-        <input
-          type="radio"
-          name="contactMethod"
-          value="email"
-          class="radioInput"
-        />
-        <label for="Questions" class="radioLabel">Email</label>
-
-        <label for="" id="questionsLabel">Questions or Comments</label>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="3"
-          class="formItemLastLine"
-        ></textarea>
-
-        <input type="submit" value="Submit" id="formSubmit" />
-      </form>
+      <div id="formContainer">
+        <div id="formContainerLeftCol">
+          <h4>Discuss Your Needs</h4>
+          <p>
+            Outline your car objectives so that we can provide a solution that
+            provides results from the off.
+          </p>
+          <h4>Ensure You Are Happy</h4>
+          <p>
+            Learn about our tried and tested, data-driven solutions to your
+            driving problems, and see how our industry-leading experts can get
+            you exactly what you want.
+          </p>
+          <h4>Love Your Car</h4>
+          <p>
+            We’ve helped some of the biggest brands in the UK to exceed their
+            ambitions, and we’re eager to discuss how using the right methods
+            with our team can do the same for you.
+          </p>
+        </div>
+        <form action="POST">
+          <input
+            type="text"
+            id="formFirstName"
+            name="firstName"
+            maxlength="50"
+            required
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            id="formLastName"
+            name="lastName"
+            maxlength="50"
+            required
+            placeholder="Last Name"
+          />
+          <input
+            type="email"
+            id="formEmail"
+            name="email"
+            maxlength="100"
+            placeholder="E-mail"
+          />
+          <input
+            type="text"
+            id="formPhoneNumber"
+            name="phoneNumber"
+            pattern="[0-9]+"
+            placeholder="Phone"
+          />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="3"
+            placeholder="How can we help?"
+          ></textarea>
+          <input type="submit" value="Submit" id="formSubmit" />
+        </form>
+      </div>
     </section>
 
     <!-- related content section  -->
