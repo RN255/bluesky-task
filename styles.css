@@ -196,6 +196,7 @@ nav #NavSocialMediaIcons {
 
 #exploreGradeSection .card {
   transition: 0.25s;
+  overflow: hidden;
 }
 
 #exploreGradeSection .card:hover {
@@ -210,8 +211,10 @@ nav #NavSocialMediaIcons {
 
 #exploreGradeSection .cardImage {
   width: 100%;
-  height: 35vh;
-  object-fit: cover;
+  height: 25vh;
+  object-fit: contain;
+  object-position: 60% 50%;
+  transform: scale(1.7);
 }
 
 #exploreGradeSection h3 {
