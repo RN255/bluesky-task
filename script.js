@@ -17,9 +17,11 @@ openNavButton.onclick = function () {
     navOpen = true;
 
     // fade up navbar ul
-    setTimeout(asd, 250);
+    navLinksUl.style.opacity = "0";
+    setTimeout(fadeUp, 250);
 
-    function asd() {
+    function fadeUp() {
+      navLinksUl.style.transition = "0.5s";
       navLinksUl.style.transform = "translateY(0%)";
       navLinksUl.style.opacity = "1";
     }
@@ -42,7 +44,12 @@ openNavButton.onclick = function () {
 
     // return navbar ul to original settings
     navLinksUl.style.transform = "translateY(10%)";
-    navLinksUl.style.opacity = "0";
+
+    setTimeout(resetTransition, 250);
+
+    function resetTransition() {
+      navLinksUl.style.transition = "0s";
+    }
 
     // return hamburger bars to normal
     openBarTop.style.transform = "rotate(0deg)";

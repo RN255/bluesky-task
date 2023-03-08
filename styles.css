@@ -586,9 +586,9 @@ footer #footerBottom form #footerEmailSubmit:hover {
   }
 
   #navLinksUl {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(10%);
-    transition: 0.5s;
+    transition: 0s;
   }
 
   nav ul {
