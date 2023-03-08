@@ -70,8 +70,8 @@ nav #NavSocialMediaIcons {
 
 /* main banner */
 /* now removed  */
-
-/* #banner {
+/* 
+#banner {
   height: 100vh;
   padding: 90px 2% 0;
   color: white;
@@ -651,6 +651,30 @@ footer #footerBottom form #footerEmailSubmit:hover {
     position: absolute;
     bottom: 2vh;
     left: 45%;
+  }
+
+  /* carousel of images  */
+
+  .carousel-inner img {
+    object-fit: contain;
+    object-position: center;
+    background-color: #000000;
+  }
+
+  #carouselImgThree {
+    object-position: center;
+  }
+
+  .carousel-caption {
+    right: 0;
+    left: 0;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .carousel-caption h5 {
+    font-size: 36px;
+    text-align: center;
   }
 
   /* Accordion Section  */
