@@ -1,6 +1,7 @@
 // get variables for slide out menu
 var openNavButton = document.getElementById("navOpenButton");
 var navLinks = document.getElementById("navLinks");
+var navLinksUl = document.getElementById("navLinksUl");
 var navOpen = false;
 
 // variables for hamburger bars
@@ -14,6 +15,14 @@ openNavButton.onclick = function () {
     // display nav bar
     navLinks.style.right = "0px";
     navOpen = true;
+
+    // fade up navbar ul
+    setTimeout(asd, 250);
+
+    function asd() {
+      navLinksUl.style.transform = "translateY(0%)";
+      navLinksUl.style.opacity = "1";
+    }
 
     // transform hamburger bars
     openBarTop.style.transform = "rotate(45deg)";
@@ -30,6 +39,10 @@ openNavButton.onclick = function () {
     // hide nav bar
     navLinks.style.right = "-300px";
     navOpen = false;
+
+    // return navbar ul to original settings
+    navLinksUl.style.transform = "translateY(10%)";
+    navLinksUl.style.opacity = "0";
 
     // return hamburger bars to normal
     openBarTop.style.transform = "rotate(0deg)";
