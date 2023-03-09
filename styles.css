@@ -47,8 +47,12 @@ nav ul:hover li a {
   transition: 0.5s;
 }
 
+nav ul:hover li:nth-child(3) img {
+  opacity: 0.5;
+}
+
 nav ul li {
-  margin: 0 10px;
+  margin: 0;
 }
 
 nav ul li:hover a {
@@ -62,10 +66,67 @@ nav ul li a {
   text-decoration: none;
   color: white;
   transition: 0.5s;
+  padding: 25px 15px;
 }
 
 nav #NavSocialMediaIcons {
   display: none;
+}
+
+#dropdownBox {
+  position: absolute;
+  display: none;
+  /* transform: translateY(-250px); */
+  animation: nav-load 0.5s;
+  animation-fill-mode: forwards;
+}
+
+#dropdownBox a {
+  display: block;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0;
+  padding: 5px 0;
+  transition: 0.25s;
+}
+
+@keyframes nav-load {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(5%);
+  }
+}
+
+nav ul li:nth-child(3) img {
+  height: 12px;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+nav ul li:nth-child(3):hover img {
+  opacity: 1;
+}
+
+nav ul li:nth-child(3):hover a {
+  opacity: 0.5;
+}
+
+nav ul li:nth-child(3) a:hover {
+  opacity: 1;
+}
+
+nav ul li:nth-child(3):hover #dropdownBox {
+  background-color: #000000;
+  display: block;
+  transform: translateY(25px);
+  transition: 0.5s;
+  width: fit-content;
+  color: #ffffff;
+  margin-top: 10px;
+  padding: 10px 25px 10px 10px;
 }
 
 /* main banner */
@@ -690,6 +751,26 @@ footer #footerBottom form #footerEmailSubmit:hover {
     font-size: 20px;
     position: relative;
     top: 15px;
+  }
+
+  #dropdownBox {
+    position: relative;
+    display: block;
+    animation: none;
+    transform: translateY(0px);
+    margin-top: 0;
+    padding: 0 0 0 25px;
+  }
+
+  nav ul li:nth-child(3):hover #dropdownBox {
+    display: block;
+    transform: translateY(0px);
+    margin-top: 0;
+    padding: 0 0 0 25px;
+  }
+
+  nav ul li:nth-child(3) img {
+    display: none;
   }
 
   /* main banner  */
