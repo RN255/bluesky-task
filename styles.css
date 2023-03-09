@@ -401,10 +401,37 @@ nav ul li:nth-child(3):hover #dropdownBox {
   transition: 0.25s;
 }
 
+/* fixed background section  */
+
+#fixedBackground {
+  margin-top: 150px;
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-image: url("images/damian-bilinski-vw-golf-r-line-city-night.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#fixedBackground h2 {
+  color: #ffffff;
+  padding: 20vh 0 0 10vw;
+  font-size: 40px;
+}
+
+#fixedBackground p {
+  color: #ffffff;
+  padding: 5vh 0 0 10vw;
+  width: 600px;
+  font-size: 24px;
+  line-height: 2rem;
+}
+
 /* form section  */
 
 #formSection {
-  margin: 100px auto 0;
+  margin: 150px auto 0;
   width: 80%;
 }
 
@@ -860,6 +887,26 @@ footer #footerBottom form #footerEmailSubmit:hover {
     width: 100%;
     height: 80%;
     top: 0px;
+  }
+
+  /* fixed background section  */
+
+  #fixedBackground h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 15vh 0 0 0;
+    width: 90%;
+    margin: auto;
+  }
+
+  #fixedBackground p {
+    color: #ffffff;
+    padding: 10px 0 0 0;
+    width: 90%;
+    font-size: 18px;
+    line-height: 2rem;
+    text-align: center;
+    margin: auto;
   }
 
   /* form section  */
