@@ -431,7 +431,8 @@ nav ul li:nth-child(3):hover #dropdownBox {
 /* form section  */
 
 #formSection {
-  margin: 150px auto 0;
+  padding-top: 150px;
+  margin: 0 auto;
   width: 80%;
 }
 
@@ -498,6 +499,58 @@ textarea:focus {
 #formSection form #formSubmit:hover {
   background-color: rgba(0, 0, 0, 0.6);
   transition: 0.25s;
+}
+
+/* feedback section  */
+
+#feedbackSection {
+  margin: 150px 0 0;
+  padding-bottom: 100px;
+}
+
+#feedbackSection .card-body {
+  position: relative;
+}
+
+#feedbackSection .quotationImg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: auto;
+}
+
+#feedbackSection p {
+  padding-bottom: 15px;
+}
+
+#feedbackSection .customerImg {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -40px;
+}
+
+#feedbackSection h3 {
+  font-weight: 700;
+  font-size: 22px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -80px;
+}
+
+#feedbackSection h4 {
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -100px;
 }
 
 /* photo grid  */
@@ -912,13 +965,24 @@ footer #footerBottom form #footerEmailSubmit:hover {
   /* form section  */
 
   #formContainer {
-    margin-top: 25px;
+    padding-top: 25px;
     display: block;
   }
 
   #formSection {
     margin-top: 50px;
     width: 90%;
+  }
+
+  /* feedback section  */
+
+  #feedbackSection {
+    margin: 150px 0 0;
+    padding-bottom: 0;
+  }
+
+  #feedbackSection .cardHolder {
+    margin-bottom: 100px;
   }
 
   /* photo grid  */
@@ -986,6 +1050,7 @@ footer #footerBottom form #footerEmailSubmit:hover {
   #relatedContentSection {
     margin: 0;
   }
+
   /* footer  */
 
   footer #footerBottom {
